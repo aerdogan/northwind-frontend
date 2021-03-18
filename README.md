@@ -1,7 +1,7 @@
-• Angular
-• ngx-toastr
-• Bootstrap
-• bootswatch
+• Angular <br />
+• ngx-toastr <br />
+• Bootstrap <br />
+• bootswatch <br />
 
 <a href="https://github.com/aerdogan/dotnet/tree/main/KodlamaOrnekleri">Backend</a>
 
