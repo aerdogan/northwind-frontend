@@ -1,8 +1,8 @@
 <p>Microsoft northwind veritabanı üzerinde çalışan basit bir e-ticaret uygulaması</p>
 
-<p>kullanılan çatı ve bileşenler : angular, ngx-toastr, bootstrap, bootswatch</p>
+<p>Projede kullandığım çatı ve bileşenler : angular, ngx-toastr, bootstrap, bootswatch</p>
 
-<a href="https://github.com/aerdogan/dotnet/tree/main/KodlamaOrnekleri">Backend Projesi</a>
+<a href="https://github.com/aerdogan/dotnet/tree/main/KodlamaOrnekleri">Backend Proje</a>
 
 <br />
 
