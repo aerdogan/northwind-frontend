@@ -1,0 +1,31 @@
+<body class="text-center">
+    
+    <main class="form-signup">
+
+      <form [formGroup]="registerForm">
+        <h1 class="h3 mb-3 fw-normal">Kullanıcı kayıt</h1>
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="firstName" formControlName="firstName">
+            <label for="firstName">İsim</label>
+        </div>
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="lastName" formControlName="lastName">
+            <label for="lastName">Soy isim</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email" formControlName="email" >
+          <label for="email">E-mail</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="password" class="form-control" id="password" formControlName="password">
+          <label for="password">Şifre</label>
+        </div>
+    
+        <button class="w-100 btn btn-lg btn-primary" type="submit" (click)="register()">Kaydet</button>
+      </form>      
+    </main>
+</body>

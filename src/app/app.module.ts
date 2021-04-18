@@ -16,6 +16,7 @@ import { CartSummaryComponent } from './components/cart-summary/cart-summary.com
 import { ProductAddComponent } from './components/product-add/product-add.component';
 import { LoginComponent } from './components/login/login.component';
 import { AuthInterceptor } from './interceptors/auth.interceptor';
+import { RegisterComponent } from './components/register/register.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AuthInterceptor } from './interceptors/auth.interceptor';
     FilterPipePipe,
     CartSummaryComponent,
     ProductAddComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
